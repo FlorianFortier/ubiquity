@@ -1,0 +1,268 @@
+/* montserrat-regular - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('/fonts/montserrat-v15-latin-regular.woff2') format('woff2')
+}
+  
+/* montserrat-500 - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('/fonts/montserrat-v15-latin-500.woff2') format('woff2'), 
+
+}
+  
+/* montserrat-600 - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+         url('/fonts/montserrat-v15-latin-600.woff2') format('woff2'), 
+}
+  
+/* montserrat-700 - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('/fonts/montserrat-v15-latin-700.woff') format('woff'), 
+}
+
+/* raleway-600 - latin */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+         url('/fonts/raleway-v18-latin-600.woff2') format('woff2'), 
+}
+  
+/* raleway-700 - latin */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('/fonts/raleway-v18-latin-700.woff2') format('woff2'), 
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: var(--grey-darkest);
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 6.4rem;
+    line-height: 1.2;
+    font-family: 'Raleway Bold', sans-serif;
+    color: #F16822;
+}
+
+:root {
+        --primary: #F16822;
+        --grey-darkest: #333333;
+        --grey-darker: #444444;
+        --grey-dark:#707070;
+        --grey-light: #CCCCCC;
+        --grey-lighter: #EEEEEE;
+        --grey-lightest: #F9F9F9;
+        --grey: #777777;
+
+}
+/* Atomic CSS*/
+
+.row {
+    display: flex;
+}
+.grid {
+    display: grid;
+}
+.column {
+    flex-direction: column;
+}
+.full {
+    width: 100%;
+}
+
+/*Container, layout*/
+
+.container-header{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.container {
+    width: 100%;
+    max-width: 116rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.features > .container {
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+    }
+.container-narrow {
+    width: 100%;
+    max-width: 117rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+/* Components */
+
+
+
+
+
+
+
+
+
+
+
+
+/*  Header */
+
+.menu {
+    align-items: center;
+    margin-left: auto;
+    margin-right: 10vh;
+}
+.menu-item-list {
+    color: #333;
+}
+.menu-item {
+    padding-left: 4.1rem;
+
+}
+#home-menu {
+    padding: 1.2;
+    background-color: var(--primary);
+    color: #fff;
+}
+.title-header {
+    padding-left: 1.2rem;
+}
+/* Fin Header*/
+
+.hero {
+    margin-top: 2rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    min-height: calc(100vh - 12.0rem);
+    text-align: center;
+    line-height: 1;
+    background: url(/ressources/compressed/slider1_resultat.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.hero-content {
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+.square-hero {
+
+}
+/* Début Main */
+.features-content {
+    text-align: center;
+    align-items: center;
+}
+.features-content > p {
+    font-family: 'MontSerrat Regular', sans-serif;
+    padding-bottom: 4vh;
+}
+.features-content > h2 {
+    padding-bottom: 3vh
+}
+.features-list {
+    grid-template-columns: repeat(4 , 1fr);
+    padding-bottom: 4vh;
+    margin-left: 25vh;
+
+}
+.features-list-content > img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    background-color: #eee;
+    border-radius: 2em;
+}
+.features-list-content {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.features-list-content  > p {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+/* Fin Main */
+.about {
+    background: url(/ressources/compressed/bokehback_resultat.jpg);
+    
+}
+.box-pres {
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+}
+.box-pres img {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+.box-pres h2{   
+    margin-top: 3em;
+    color: #F16822;
+}
+.blog-title {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+}
+.blog-title img {
+    width: 50%;
+}
+.blog-title > li
+article {
+    background-color: #f9f9f9;
+}
