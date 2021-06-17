@@ -71,11 +71,13 @@ body {
 
 h1 {
     font-size: 6.4rem;
-    line-height: 1.2;
-    font-family: 'Raleway Bold', sans-serif;
+    line-height: 1.4;
+    font-family: 'Raleway', sans-serif;
     color: #F16822;
 }
-
+p {
+    font-family: 'Montserrat';
+}
 :root {
         --primary: #F16822;
         --grey-darkest: #333333;
@@ -100,6 +102,12 @@ h1 {
 }
 .full {
     width: 100%;
+}
+.jtcn {
+    justify-content: center;
+}
+.algi {
+    align-items: center;
 }
 
 /*Container, layout*/
@@ -173,7 +181,6 @@ header .container {
     justify-content: center;
 }
 .hero {
-
     justify-content: center;
     align-content: center;
     padding-top: 10rem;
@@ -185,24 +192,42 @@ header .container {
     background-size: cover;
     background-position: center;
 }
+.hero p {
+    font-size: 3.2rem;
+    line-height: 1;
+}
 .hero button {
     background: transparent;
     border: none;
 }
-.square-hero {
-
+.square-btn {
+    background-size: 2rem;
+    background: currentColor;
+    background-color: var(--grey-darkest);
 }
+
 /* Début Main */
+
 .features-content {
     text-align: center;
     align-items: center;
 }
-.features-content > p {
-    font-family: 'MontSerrat Regular', sans-serif;
-    padding-bottom: 4vh;
-}
 .features-content > h2 {
-    padding-bottom: 3vh
+    font-weight: bold;
+    font-size: 4.8rem;
+    line-height: 1.1;
+}
+
+.features-content > p{
+    font-size: 2.4rem;
+    line-height: 1.3;
+
+}
+.features-content > h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 1.3;
 }
 .features-list {
     grid-template-columns: repeat(4 , 1fr);
@@ -210,24 +235,33 @@ header .container {
     margin-left: 25vh;
 
 }
+.features-list-content figure > span {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 10rem;
+    background-color: #EEEEEE;
+    border-radius: 50%;
+    justify-content: center;
+}
 .features-list-content > img {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2rem;
-    background-color: #eee;
-    border-radius: 2em;
 }
 .features-list-content {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2rem;
-    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3. 1 fr);
+    justify-content: center; 
+    justify-items: center;
+    margin-top: 4rem;
 }
 .features-list-content  > p {
     margin-left: auto;
     margin-right: auto;
     margin-top: 2rem;
     text-align: center;
+    font-size: 1.6rem;
+    line-height: 1.5;
 }
 
 /* Fin Main */
@@ -255,6 +289,7 @@ header .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
+    text-align: center;
 }
 .blog-title img {
     width: 50%;
@@ -262,4 +297,7 @@ header .container {
 .blog-title > li
 article {
     background-color: #f9f9f9;
+}
+.box-posts h2 {
+    text-align: center;
 }
