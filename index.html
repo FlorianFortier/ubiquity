@@ -17,16 +17,17 @@
             <div class="logo row">
                 <img src="ressources/LOGO.svg" alt="site logo">
                 <div class="title-header">
-                <p class="site-title">Ubiquity</p>
-                <p class="baseline">Professional web UI</p></div>
+                    <p class="site-title">Ubiquity</p>
+                    <p class="baseline">Professional web UI</p>
+                </div>
             </div>
             <nav class="menu row ">
                 <ul class="row menu-item-list" role="list">
-                    <li class="menu-item" id="menu-home"><a href="">Home</a></li>
-                    <li class="menu-item"><a href="">About</a></li>
-                    <li class="menu-item"><a href="">Portfolio</a></li>
-                    <li class="menu-item"><a href="">Blog</a></li>
-                    <li class="menu-item"><a href="">Contact</a></li>
+                    <li class="menu-item" id="menu-home"> <a href="">Home</a></li>
+                    <li class="menu-item"> <a href="#">About</a></li>
+                    <li class="menu-item"> <a href="#">Portfolio</a></li>
+                    <li class="menu-item"> <a href="#">Blog</a></li>
+                    <li class="menu-item"> <a href="#">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -37,19 +38,22 @@
 <!-- Début Hero -->
 
     <section class="hero row">
-        <div class="container row">
-            <button><img src="ressources/arrow-circle-left.svg" alt="Left Arrow" class="left-arrow"></button>
+        <div class="container row"> 
+            <button class="btn-left-arrow"><img src="ressources/arrow-circle-left.svg" alt="Left slider Arrow" class="left-arrow"></button>
             <div class="hero-content row column full">
                 <h1>At Ubiquity, We care</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, minima obcaecati blanditiis dolorum magnam in vel porro doloremque consectetur ab esse sunt.</p>
-                <div class="square-hero">
-                    <button class="square-btn"></button>
-                    <button class="square-btn"></button>
-                    <button class="square-btn"></button>
+                <div class="square-hero row">
+                    <button class="square-btn screen-reader-text"><span>Go to the slide 1</span></button>
+                    <button class="square-btn screen-reader-text"><span>Go to the slide 2</span></button>
+                    <button class="square-btn screen-reader-text"><span>Go to the slide 3</span></button>
+                    <button class="square-btn screen-reader-text"><span>Go to the slide 4</span></button>
+                    <button class="square-btn screen-reader-text"><span>Go to the slide 5</span></button>
+                    <button class="square-btn screen-reader-text"><span>Go to the slide 6</span></button>
                 </div>
             </div>
             
-            <button><img src="ressources/arrow-circle-left-1.svg" alt="Right Arrow" class="right-arrow"></button>
+            <button class="btn-right-arrow"><img src="ressources/arrow-circle-left-1.svg" alt="Right Arrow" class="right-arrow"></button>
 
     </section>
 
@@ -111,9 +115,11 @@
 <!-- Fin Main -->
 
     <section class="about">
-        <div class="container full">
+        <div class="container">
             <div class="box-pres row column full">
                 <h2>What is Ubiquity</h2>
+                <button class="square-btn"></button>
+                <button class="square-btn"></button>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt accusamus natus veniam excepturi error facere tempore aliquid autem quibusdam..</p>
                 <img src="ressources/groupe_33.png" alt="mockup">
             </div>
@@ -124,48 +130,78 @@
         <div class="container">
             <div class="box-posts row column">
                 <h2>Latest Posts</h2>
+                <button class="square-btn"></button>
+                <button class="square-btn"></button>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, mollitia! Est quibusdam expedita explicabo accusantium sapiente doloribus soluta dolorem eum blanditiis, delectus impedit. Magni veniam velit odit nisi et rerum!</p>
             </div>
             <ul class="blog-title" role="list">
-                <li class="blog-items">
-                    <img src="ressources/compressed/annie-spratt-wgivdx9dBdQ-unsplash_resultat.jpg" alt="photo">titre 
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis magni sit illo maxime ipsam fugit temporibus deserunt culpa rerum, at veniam, eveniet sed, quibusdam neque excepturi? Temporibus earum ea aut.</p>
+                <li class="blog-items row column">
+                    <a href="#">
+                        <img src="ressources/compressed/annie-spratt-wgivdx9dBdQ-unsplash_resultat.jpg" alt="photo">
+                        <h3>Blog Title</h3> 
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis magni sit illo maxime ipsam fugit temporibus deserunt culpa rerum, at veniam, eveniet sed, quibusdam neque excepturi? Temporibus earum ea aut.</p>
+                    </a>
                 </li>
-                <li class="blog-items"><a href=""></a>
-                    <img src="ressources/compressed/william-iven-SpVHcbuKi6E-unsplash_resultat.jpg" alt="photo">titre 
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis magni sit illo maxime ipsam fugit temporibus deserunt culpa rerum, at veniam, eveniet sed, quibusdam neque excepturi? Temporibus earum ea aut.</p>
+                <li class="blog-items row column"><a href="">
+                    <a href="#">
+                    <img src="ressources/compressed/william-iven-SpVHcbuKi6E-unsplash_resultat.jpg" alt="photo">
+                        <h3>Title of the Blog</h3>  
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis magni sit illo maxime ipsam fugit temporibus deserunt culpa rerum, at veniam, eveniet sed, quibusdam neque excepturi? Temporibus earum ea aut.</p>
+                    </a>
+                </li>
+                <li class="blog-items row column">
+                    <a href="#">
+                        <img src="ressources/compressed/green-chameleon-s9CC2SKySJM-unsplash_resultat.jpg" alt="photo">
+                        <h3>Title of the Blog</h3>   
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis magni sit illo maxime ipsam fugit temporibus deserunt culpa rerum, at veniam, eveniet sed, quibusdam neque excepturi? Temporibus earum ea aut.</p>
+                    </a>
                 </li>
                 <li class="blog-items">
-                    <img src="ressources/compressed/green-chameleon-s9CC2SKySJM-unsplash_resultat.jpg" alt="photo">titre 
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis magni sit illo maxime ipsam fugit temporibus deserunt culpa rerum, at veniam, eveniet sed, quibusdam neque excepturi? Temporibus earum ea aut.</p>
+                    <a href="#">
+                        <img src="ressources/compressed/helloquence-5fNmWej4tAA-unsplash_resultat.jpg" alt="photo">
+                        <h3>Blog Title</h3>   
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis magni sit illo maxime ipsam fugit temporibus deserunt culpa rerum, at veniam, eveniet sed, quibusdam neque excepturi? Temporibus earum ea aut.</p>
+                    </a>
                 </li>
                 <li class="blog-items">
-                    <img src="ressources/compressed/helloquence-5fNmWej4tAA-unsplash_resultat.jpg" alt="photo">titre <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis magni sit illo maxime ipsam fugit temporibus deserunt culpa rerum, at veniam, eveniet sed, quibusdam neque excepturi? Temporibus earum ea aut.</p>
+                    <a href="#">
+                        <img src="ressources/compressed/lauren-mancke-aOC7TSLb1o8-unsplash-1_resultat.jpg" alt="photo">
+                        <h3>Blog Title</h3>  
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis magni sit illo maxime ipsam fugit temporibus deserunt culpa rerum, at veniam, eveniet sed, quibusdam neque excepturi? Temporibus earum ea aut.</p>
+                    </a>
                 </li>
                 <li class="blog-items">
-                    <img src="ressources/compressed/lauren-mancke-aOC7TSLb1o8-unsplash-1_resultat.jpg" alt="photo">titre <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis magni sit illo maxime ipsam fugit temporibus deserunt culpa rerum, at veniam, eveniet sed, quibusdam neque excepturi? Temporibus earum ea aut.</p>
-                </li>
-                <li class="blog-items">
-                    <img src="ressources/compressed/annie-spratt-wgivdx9dBdQ-unsplash_resultat.jpg" alt="photo">titre <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis magni sit illo maxime ipsam fugit temporibus deserunt culpa rerum, at veniam, eveniet sed, quibusdam neque excepturi? Temporibus earum ea aut.</p>
+                    <a href="#">
+                        <img src="ressources/compressed/annie-spratt-wgivdx9dBdQ-unsplash_resultat.jpg" alt="photo">
+                        <h3>Blog Title</h3>  
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis magni sit illo maxime ipsam fugit temporibus deserunt culpa rerum, at veniam, eveniet sed, quibusdam neque excepturi? Temporibus earum ea aut.</p>
+                    </a>
                 </li>
             </ul>
         </div>
     </article>
-    <section>
+    <section class="stats-section">
         <div class="container">
             <div class="stats row column">
                 <h2>Fun Facts</h2>
-                <ul class="stats-list row">
-                    <li class="stats-list-items row column">5 <P>people</P></li>
-                    <li class="stats-list-items row column">243 <P>pagesviews</P></li>
-                    <li class="stats-list-items row column">23 <P>coffees</P></li>
-                    <li class="stats-list-items row column">600 <P>hours</P></li>
-                    <li class="stats-list-items row column">40 <P>days</P></li>
-                    <li class="stats-list-items row column">17 <P>websites</P></li>
+                <button class="square-btn"></button>
+                <button class="square-btn"></button>
+                <ul class="stats-list grid" role="list">
+                    <li class="stats-list-items row column"> <strong>5</strong> people </li>
+                    <li class="stats-list-items row column"><strong>243</strong>  pagesviews</li>
+                    <li class="stats-list-items row column"><strong>23</strong> coffees</li>
+                    <li class="stats-list-items row column"> <strong>600</strong> hours</li>
+                    <li class="stats-list-items "> <strong>40</strong><br>days</li>
+                    <li class="stats-list-items "><strong>17</strong><br> websites</li>
                 </ul>
             </div>
-            <div class="people">
-                <img src="ressources/Image 1.png" alt="photo of a women using laptop">
+        </div>
+    </section>
+
+    <section class="people row">
+        <div class="container row algi">
+            <img src="ressources/Image 1.png" alt="photo of a women using laptop">
+            <div class=" people-content row column jtcn">
                 <p class="name">Amanda Sigfried</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum corrupti pariatur dolore labore, ipsa omnis veritatis praesentium reiciendis ipsum dicta deleniti architecto! Eos aliquid veniam reprehenderit, accusantium libero ducimus fugit.</p>
             </div>
@@ -173,19 +209,19 @@
     </section>
     <footer>
         <div class="container">
-            <div class="list-footer row">
+            <div class="grid-container grid">
                 <div class="list-footer-items">
-                    Recent Posts
+                    <h4>Recent Posts</h4> 
                     <ul class="inner-list">
                         <li class="inner-list-content">lorem ipsum</li>
                         <li class="inner-list-content">lorem ipsum</li>
                         <li class="inner-list-content">lorem ipsum</li>
                         <li class="inner-list-content">lorem ipsum</li>
                         <li class="inner-list-content">lorem ipsum</li>
-                     </ul>
+                        </ul>
                 </div>
-                <li class="list-footer-items">
-                    Recent Comments
+                <div class="list-footer-items ">
+                    <h4>Recent Comments</h4>
                     <ul class="inner-list">
                         <li class="inner-list-content">lorem ipsum</li>
                         <li class="inner-list-content">lorem ipsum</li>
@@ -193,20 +229,40 @@
                         <li class="inner-list-content">lorem ipsum</li>
                         <li class="inner-list-content">lorem ipsum</li>
                     </ul>
-                 </li>
-                <li class="list-footer-items">Tags</li>
-                <li class="list-footer-items">Ubiquity
-                    <img src="" alt="logo"><p>2499 Bee Street, Bear lake Michigan 49614</p>
-                    <img src="" alt="logo"><p>231 - 864 - 8100</p>
-                    <img src="" alt="logo"><p>Hello@domainname.com</p>     
-                </li>
+                    </div>
+                    <ul class="tag-list" role="list">
+                        <li class="tag-item"><h4>Tags</h4></li>
+                        <li class="tag-item"><a href="#">Insider</a></li>
+                        <li class="tag-item"><a href="#">Check</a></li>
+                        <li class="tag-item"><a href="#">Demo</a></li>
+                        <li class="tag-item"><a href="#">Office</a></li>
+                        <li class="tag-item"><a href="#">Work</a></li>
+                        <li class="tag-item"><a href="#">Post</a></li>
+                        <li class="tag-item"><a href="#">Management</a></li>
+                    </ul>
+                    <ul>
+                        <li class="list-footer-items row">
+                            <h4>Ubiquity</h4>
+                        </li>
+                        <lic class="list-footer-items row">
+                            <a href="#"><img src="ressources/map-marker.svg" alt="Map marker icon">
+                            <p>2499 Bee Street, Bear lake Michigan 49614</p></a>
+                        </lic>
+                        <li class="list-footer-items row">
+                            <a href="#"><img src="ressources/phone.svg" alt="phone icon"><p>231 - 864 - 8100</p></a>
+                        </li class="list-footer-items row">  
+                        <li>
+                            <a href="#"><img src="ressources/envelope.svg" alt="enveloppe icon">                        <p>Hello@domainname.com</p></a>
+                        </li>    
+                    </ul>
+                </address>
+                <hr> 
+                <div>
+                    
+                </div>
+                <p> ©2019 Ubiquity. All Rights Reserved.</p>
             </div>
-            <hr> 
-            <p> ©2019 Ubiquity. All Rights Reserved.</p>
-            <img src="" alt="Logo">
-            <img src="" alt="Logo">
-            <img src="" alt="Logo">
         </div>
     </footer>
-</body>
+</body> 
 </html>
