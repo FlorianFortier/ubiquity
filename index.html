@@ -37,24 +37,26 @@
 
 <!-- Début Hero -->
 
-    <section class="hero row">
-        <div class="container row"> 
-            <button class="btn-left-arrow"><img src="ressources/arrow-circle-left.svg" alt="Left slider Arrow" class="left-arrow"></button>
+    <section class="hero row jtcn algi">
+        <div class="container row column">  
             <div class="hero-content row column full">
                 <h1>At Ubiquity, We care</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, minima obcaecati blanditiis dolorum magnam in vel porro doloremque consectetur ab esse sunt.</p>
-                <div class="square-hero row">
-                    <button class="square-btn screen-reader-text"><span>Go to the slide 1</span></button>
-                    <button class="square-btn screen-reader-text"><span>Go to the slide 2</span></button>
-                    <button class="square-btn screen-reader-text"><span>Go to the slide 3</span></button>
-                    <button class="square-btn screen-reader-text"><span>Go to the slide 4</span></button>
-                    <button class="square-btn screen-reader-text"><span>Go to the slide 5</span></button>
-                    <button class="square-btn screen-reader-text"><span>Go to the slide 6</span></button>
+                <div class="arrows row">
+                    <button class="btn-left-arrow"><img src="ressources/arrow-circle-left.svg" alt="Left slider Arrow" class="left-arrow"></button>
+                    <button class="btn-right-arrow"><img src="ressources/arrow-circle-left-1.svg" alt="Right Arrow" class="right-arrow"></button>
                 </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, minima obcaecati blanditiis dolorum magnam in vel porro doloremque consectetur ab esse sunt.</p>
             </div>
-            
-            <button class="btn-right-arrow"><img src="ressources/arrow-circle-left-1.svg" alt="Right Arrow" class="right-arrow"></button>
-
+            <div class="square-hero row">
+                <button class="square-btn"><span class="screen-reader-text">Go to the slide 1</span></button>
+                <button class="square-btn"><span class="screen-reader-text">Go to the slide 2</span></button>
+                <button class="square-btn"><span class="screen-reader-text">Go to the slide 3</span></button>
+                <button class="square-btn"><span class="screen-reader-text">Go to the slide 4</span></button>
+                <button class="square-btn"><span class="screen-reader-text">Go to the slide 5</span></button>
+                <button class="square-btn"><span class="screen-reader-text">Go to the slide 6</span></button>
+                <button class="square-btn"><span class="screen-reader-text">Go to the slide 6</span></button>
+                <button class="square-btn"><span class="screen-reader-text">Go to the slide 6</span></button>
+            </div>
     </section>
 
     <!--Fin hero-->
@@ -65,7 +67,7 @@
         <div class="container">
             <div class=" container-narrow features-content row column">
                 <h2>Our Services</h2>
-                <div class="square-hero">
+                <div class="square-container">
                     <button class="square-btn"></button>
                     <button class="square-btn"></button>
                 </div>
@@ -118,8 +120,14 @@
         <div class="container">
             <div class="box-pres row column full">
                 <h2>What is Ubiquity</h2>
-                <button class="square-btn"></button>
-                <button class="square-btn"></button>
+                <div class="square-container">
+                    <button class="square-btn-invert">
+                        <span class="screen-reader-text">go to the slide 2</span>
+                    </button>
+                    <button class="square-btn-invert">
+                        <span class="screen-reader-text">go to the slide 2</span>
+                    </button>
+                </div>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt accusamus natus veniam excepturi error facere tempore aliquid autem quibusdam..</p>
                 <img src="ressources/groupe_33.png" alt="mockup">
             </div>
@@ -130,8 +138,14 @@
         <div class="container">
             <div class="box-posts row column">
                 <h2>Latest Posts</h2>
-                <button class="square-btn"></button>
-                <button class="square-btn"></button>
+                <div class="square-container">
+                    <button class="square-btn">
+                        <span class="screen-reader-text">go to the slide 1</span>
+                    </button>
+                    <button class="square-btn">
+                        <span class="screen-reader-text">go to the slide 2</span>
+                    </button>
+                </div>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, mollitia! Est quibusdam expedita explicabo accusantium sapiente doloribus soluta dolorem eum blanditiis, delectus impedit. Magni veniam velit odit nisi et rerum!</p>
             </div>
             <ul class="blog-title" role="list">
@@ -184,27 +198,49 @@
         <div class="container">
             <div class="stats row column">
                 <h2>Fun Facts</h2>
-                <button class="square-btn"></button>
-                <button class="square-btn"></button>
+                <div class="square-container">
+                    <button class="square-btn">
+                        <span class="screen-reader-text">go to the slide 1</span>
+                    </button>
+                    <button class="square-btn">
+                        <span class="screen-reader-text">go to the slide 2</span>
+                    </button>
+                </div>
                 <ul class="stats-list grid" role="list">
-                    <li class="stats-list-items row column"> <strong>5</strong> people </li>
-                    <li class="stats-list-items row column"><strong>243</strong>  pagesviews</li>
-                    <li class="stats-list-items row column"><strong>23</strong> coffees</li>
-                    <li class="stats-list-items row column"> <strong>600</strong> hours</li>
-                    <li class="stats-list-items "> <strong>40</strong><br>days</li>
-                    <li class="stats-list-items "><strong>17</strong><br> websites</li>
+                    <li class="stats-list-items row column"> 
+                        <strong>5</strong> people </li>
+                    <li class="stats-list-items row column">
+                        <strong>243</strong>  pagesviews</li>
+                    <li class="stats-list-items row column">
+                        <strong>23</strong> coffees</li>
+                    <li class="stats-list-items row column">      
+                        <strong>600</strong> hours</li>
+                    <li class="stats-list-items ">
+                        <strong>40</strong><br>days</li>
+                    <li class="stats-list-items ">
+                        <strong>17</strong><br> websites</li>
                 </ul>
             </div>
         </div>
     </section>
 
-    <section class="people row">
+    <section class="people column row">
         <div class="container row algi">
             <img src="ressources/Image 1.png" alt="photo of a women using laptop">
             <div class=" people-content row column jtcn">
                 <p class="name">Amanda Sigfried</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum corrupti pariatur dolore labore, ipsa omnis veritatis praesentium reiciendis ipsum dicta deleniti architecto! Eos aliquid veniam reprehenderit, accusantium libero ducimus fugit.</p>
             </div>
+        </div>
+        <div class="square-container-e row">
+            <button class="square-btn-invert-e"><span class="screen-reader-text">Go to the slide 1</span></button>
+            <button class="square-btn-invert-e"><span class="screen-reader-text">Go to the slide 2</span></button>
+            <button class="square-btn-invert-e"><span class="screen-reader-text">Go to the slide 3</span></button>
+            <button class="square-btn-invert-e"><span class="screen-reader-text">Go to the slide 4</span></button>
+            <button class="square-btn-invert-e"><span class="screen-reader-text">Go to the slide 5</span></button>
+            <button class="square-btn-invert-e"><span class="screen-reader-text">Go to the slide 6</span></button>
+            <button class="square-btn-invert-e"><span class="screen-reader-text">Go to the slide 6</span></button>
+            <button class="square-btn-invert-e"><span class="screen-reader-text">Go to the slide 6</span></button>
         </div>
     </section>
     <footer>
@@ -230,8 +266,8 @@
                         <li class="inner-list-content">lorem ipsum</li>
                     </ul>
                     </div>
-                    <ul class="tag-list" role="list">
-                        <li class="tag-item"><h4>Tags</h4></li>
+                    <ul class="tag-list grid" role="list">
+                        <h4>Tags</h4>
                         <li class="tag-item"><a href="#">Insider</a></li>
                         <li class="tag-item"><a href="#">Check</a></li>
                         <li class="tag-item"><a href="#">Demo</a></li>
@@ -240,27 +276,40 @@
                         <li class="tag-item"><a href="#">Post</a></li>
                         <li class="tag-item"><a href="#">Management</a></li>
                     </ul>
-                    <ul>
-                        <li class="list-footer-items row">
+                <address>
+                    <ul class="footer-contact row column">
                             <h4>Ubiquity</h4>
+                        <li class="list-footer row">
+                            <a href="#" class="row">
+                                <img src="ressources/map-marker.svg" alt="Map marker icon">
+                            <p>2499 Bee Street, Bear lake Michigan 49614</p>
+                        </a>
                         </li>
-                        <lic class="list-footer-items row">
-                            <a href="#"><img src="ressources/map-marker.svg" alt="Map marker icon">
-                            <p>2499 Bee Street, Bear lake Michigan 49614</p></a>
-                        </lic>
-                        <li class="list-footer-items row">
-                            <a href="#"><img src="ressources/phone.svg" alt="phone icon"><p>231 - 864 - 8100</p></a>
-                        </li class="list-footer-items row">  
-                        <li>
-                            <a href="#"><img src="ressources/envelope.svg" alt="enveloppe icon">                        <p>Hello@domainname.com</p></a>
+                        <li class="list-footer row">
+                            <a href="#" class="row">
+                                <img src="ressources/phone.svg" alt="phone icon">
+                                <p>231 - 864 - 8100</p>
+                            </a>
+                        </li>  
+                        <li class="list-footer row">
+                            <a href="#" class="row">
+                                <img src="ressources/envelope.svg" alt="enveloppe icon">      <p>Hello@domainname.com</p>
+                            </a>
                         </li>    
                     </ul>
                 </address>
-                <hr> 
-                <div>
-                    
-                </div>
+            </div>
+            <hr> 
+            <div class="copyrights row">
                 <p> ©2019 Ubiquity. All Rights Reserved.</p>
+                <div class="row social-media">
+                    <a href="#" class="social-media">
+                        <img src="ressources/icons8-facebook.svg" alt="Facebook icon"></a>
+                    <a href="#" class="social-media">
+                        <img src="ressources/icons8-twitter.svg" alt="Twitter icon"></a>
+                    <a href="#" class="social-media">
+                        <img src="ressources/icons8-google-plus.svg" alt="Google plus icon"></a>
+                </div>
             </div>
         </div>
     </footer>
